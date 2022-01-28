@@ -1,0 +1,24 @@
+{
+    "name": "cameltransform",
+    "displayName": "CamelTransform",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "main": "./src/extension",
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "shift+u",
+                "command": "extension.sayHello"
+            }
+        ]
+    }
+}
